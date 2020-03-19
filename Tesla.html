@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Tesla</title>
+  <link href="Tesla.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>Top Innovative Models</h1>
+  <p>Welcome to the World of Exotic Cars</p>
+</div>
+
+<div class="topnav">
+  <a href="website.html">Home</a>
+  <a href="Lamborghini.html">Lamborghini</a>
+  <a href="Tesla.html">Tesla</a>
+  <a href="#">Porche</a>
+  <a href="#" style="float:right">Gallery</a>
+</div>
+
+<!-- Video section -->
+</section>
+<div class="new">
+</br>
+        <h2 align="center">Model 3</h2>
+        <h5 align="center">Model 3 is the safest, fastest and most capable sport utility vehicle in history.</h5>
+        <div class="lambo">
+          <video width="100%" height="500px" align="right" playsinline autoplay muted loop>
+              <source src="https://www.tesla.com/ns_videos/Model3_WebsiteHero_Master_D.mp4?20170801" type="video/mp4">
+              <source src="https://www.tesla.com/ns_videos/Model3_WebsiteHero_Master_D.mp4?20170801" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+<!-- Table section -->
+<p class="cap"><b>TECHNICAL</b> SPECIFICATIONS</p>
+  <table align="center">
+
+  <tr class="tab">
+    <td>Performance</td>
+    <td class="right">3.7 - 5.9 sec 0-100 kph</td>
+
+  </tr>
+  <tr class="tab">
+    <td>Range</td>
+    <td class="right">354 - 499 km</td>
+
+  </tr>
+  <tr class="tab">
+    <td>Supercharging</td>
+    <td class="right">Pay Per Use Supercharging</td>
+
+  </tr>
+  <tr class="tab">
+    <td>Passenger</td>
+    <td class="right">5 Adults (with Rear Facing Seats)</td>
+
+  </tr>
+  <tr class="tab">
+    <td>Cargo</td>
+    <td class="right">15 cu ft</br>Front & Rear Trunk Cargo Volume with Manual Trunk</td>
+
+  </tr>
+  <tr class="tab">
+    <td>Displays</td>
+    <td class="right">1 Digital Display</br>15" Center Touchscreen</td>
+  </tr>
+  <tr>
+    <td><img src="https://www.tesla.com/tesla_theme/assets/img/model3/model_3--side_profile.png?20170801" alt="try refreshing"></td>
+    <td><b>Safety</b></br>Automatic emergency braking and collision avoidance</br>
+          Eight airbags</br>
+          Electronic stability and traction control</br></td>
+  </tr>
+</table>
+
+<!-- for slideshow -->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+  <a href="https://www.tesla.com/en_CA/blog/solar-roof%20"><img src="https://www.tesla.com/sites/default/files/images/blogs/solar-roof-blog-hero.jpg" style="width:100%"></a>
+    <div class="text">Solar Roof</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <a href="https://www.tesla.com/en_CA/blog/supercharging-cities"><img src="https://www.tesla.com/sites/default/files/images/supercharger/supercharging-cities-announcement.jpg" style="width:100%"></a>
+    <div class="text">Supercharging Cities</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <a href="https://www.tesla.com/en_CA/Blog/model-s-or-model-3"><img src="https://www.tesla.com/sites/default/files/images/blogs/models_blog_post.jpg" style="width:100%"></a>
+    <div class="text">Model S or Model 3</div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+<!-- javascript -->
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+</script>
+</div>
+
+<!-- Footer section -->
+<div class="footer">
+
+  <address class="add">Vancouver Cars<br/>
+  14020 79A Ave<br/>
+  Surrey, BC, V3W 2Z4
+  </address>
+
+  <p> <a class="tell" href="tel:+1(236) 880-6631">Tell:+1(236) 880-6631 </a> </p>
+  <p> <img class="gmail" src="https://www.bing.com/th?id=A598d07e7761f5bca3a3f78e95b6db422&w=110&h=110&c=7&rs=1&qlt=95&pcl=f9f9f9&cdv=1&pid=16.1" alt="try refreshing" width="1%">
+
+     <a class="gmail" href="mailto:dikshitsharma03@gmail.com">
+  dikshitsharma03@gmail.com </a></p>
+
+</div>
+
+</body>
+</html>

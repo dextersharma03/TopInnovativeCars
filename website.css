@@ -1,0 +1,178 @@
+@@charset "UTF-8";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url("https://images.wallpaperscraft.com/image/road_marking_asphalt_sky_horizon_119994_3840x2160.jpg");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    color: black;
+
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* image insta */
+.insta{
+  margin: 5px;
+}
+.fb{
+  margin: 1px;
+  text-decoration: none;
+}
+div.follow{
+  background-color: #b3b3b3;
+  border-radius: 18px;
+}
+
+
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    background-color: inherit;
+}
+.leftcolumn p#info, p#info1 a {
+  color: white;
+}
+
+/* left popular section */
+.leftpop {
+    float: left;
+    width: 25%;
+    background-color: inherit;
+    color: white;
+    padding-left: 20px;
+}
+img.lambo, img.Porsche, img.Tesla{
+  color: white;
+}
+a.lambo, a.Porche, a.Tesla{
+  color: white;
+  text-decoration: none;
+  text-transform: inherit;
+  float: right;
+}
+
+
+/* follow section */
+.follow {
+    float: right;
+    width: 25%;
+    background-color: #b3b3b3;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    border-radius: 18px;
+    background-color: #999999 ;
+    width: 100%;
+    padding: 10%;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: inherit;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* follow me */
+img.insta{
+  float: left;
+}
+a.insta{
+  text-decoration: none;
+  text-align: inherit;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    background-color: inherit;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* address  and footer*/
+.add{
+  text-align: center;
+}
+.tell{
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+.gmail{
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}

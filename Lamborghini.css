@@ -1,0 +1,212 @@
+@@charset "UTF-8";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url("https://images.wallpaperscraft.com/image/road_marking_asphalt_sky_horizon_119994_3840x2160.jpg");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    color: black;
+
+}
+
+.header h1 {
+    font-size: 50px;
+
+}
+
+#info{
+  font-size: 15px;
+  padding-top: 85px;
+}
+#new1{
+  color: white;
+  font-size: 15px;
+  padding-top: 85px;
+}
+
+.new h3{
+  padding-top: 20px;
+  color: black;
+}
+
+
+
+
+/* video lambo */
+.lambo1{
+  margin: 10px;
+}
+
+/* form layount and design */
+/* Form Layout Styles */
+
+      form#survey {
+         margin-top:  100px;
+         padding: 120px;
+      }
+
+      form#survey > fieldset {
+         background-color: #ccccb3;
+
+       	border-radius: 20px;
+        -webkit-flex: 1 1 150px;
+        flex: 1 1 100px;
+       	font-size: 0.85em;
+       	padding: 10px;
+       	margin: 10px;
+      }
+
+      div.formRow {
+         display: -webkit-flex;
+         display: flex;
+         -webkit-flex-flow: row wrap;
+         flex-flow: row wrap;
+         margin: 7px 0px;
+      }
+
+      div.formRow > * {
+         -webkit-flex: 1 1 90px;
+         flex: 1 1 150px;
+      }
+
+      /* Legend Styles */
+      legend {
+      	background-color:#b3b300;
+        font-size: 20px;
+      	color:white;
+      	padding: 10px;
+      }
+
+      /* Text Area Styles */
+
+      textarea {
+         margin-top: 10px;
+         height: 100px;
+         width: 95%;
+      }
+
+      /* Form Button Styles */
+      div#buttons {
+        text-align: center;
+        width: 100%;
+      }
+
+      input[type='submit'],input[type='reset'] {
+        background-color: #b3b300;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 15px;
+      }
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    background-color: inherit;
+}
+.leftcolumn p#info, p#info1 a {
+  color: white;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color:grey ;
+    width: 100%;
+    padding: 10%;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: inherit;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    background-color: inherit;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* address  and footer*/
+.add{
+  text-align: center;
+}
+.tell{
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+.gmail{
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
