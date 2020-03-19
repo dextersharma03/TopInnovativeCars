@@ -1,6 +1,6 @@
 # This is a Dynamic Website on Top Innovative Cars.
 
-## You can say search different things such as:
+## You can search different things such as:
 ## 1. Check out the Tesla models
 ## 2. Click on various tabs to navigate
 ## 3. Does include good graphical design
